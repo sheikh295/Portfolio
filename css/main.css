@@ -964,16 +964,12 @@ body{
   height: 100vh;
 }
 
-.h-\[270px\] {
-  height: 270px;
-}
-
-.h-\[120vh\] {
-  height: 120vh;
-}
-
 .h-\[110vh\] {
   height: 110vh;
+}
+
+.h-\[270px\] {
+  height: 270px;
 }
 
 .min-h-screen {
@@ -1303,11 +1299,6 @@ body{
   padding-bottom: 14px;
 }
 
-.px-\[35px\] {
-  padding-left: 35px;
-  padding-right: 35px;
-}
-
 .px-\[30px\] {
   padding-left: 30px;
   padding-right: 30px;
@@ -1393,6 +1384,10 @@ body{
   font-size: 40px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1408,25 +1403,25 @@ body{
   line-height: 1.75rem;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .text-\[11px\] {
   font-size: 11px;
 }
 
-.text-\[10px\] {
-  font-size: 10px;
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
 }
 
 .font-bold {
@@ -1586,24 +1581,24 @@ body{
 }
 
 @media (min-width: 430px) {
-  .xs\:ml-8 {
-    margin-left: 2rem;
-  }
-
   .xs\:ml-20 {
     margin-left: 5rem;
+  }
+
+  .xs\:ml-8 {
+    margin-left: 2rem;
   }
 
   .xs\:mt-5 {
     margin-top: 1.25rem;
   }
 
-  .xs\:h-\[350px\] {
-    height: 350px;
-  }
-
   .xs\:h-\[150vh\] {
     height: 150vh;
+  }
+
+  .xs\:h-\[350px\] {
+    height: 350px;
   }
 
   .xs\:w-\[300px\] {
@@ -1637,30 +1632,29 @@ body{
     line-height: 2.5rem;
   }
 
-  .xs\:text-\[60px\] {
-    font-size: 60px;
-  }
-
   .xs\:text-5xl {
     font-size: 3rem;
     line-height: 1;
   }
 
-  .xs\:text-\[40px\] {
-    font-size: 40px;
-  }
-
-  .xs\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .xs\:text-\[12px\] {
+    font-size: 12px;
   }
 
   .xs\:text-\[14px\] {
     font-size: 14px;
   }
 
-  .xs\:text-\[12px\] {
-    font-size: 12px;
+  .xs\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .xs\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .xs\:text-\[60px\] {
+    font-size: 60px;
   }
 
   .xs\:text-lg {
@@ -1673,8 +1667,9 @@ body{
     line-height: 1.25rem;
   }
 
-  .xs\:text-\[18px\] {
-    font-size: 18px;
+  .xs\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
