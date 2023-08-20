@@ -32,7 +32,7 @@ window.addEventListener('scroll', function(){
         document.getElementById('header').classList.remove("h-24", "bg-[#3c3c3c]", "text-white",);
         document.getElementById('header').classList.add("h-[70px]", "bg-white", "text-[#ea4343]");
         document.getElementById('logo').classList.remove("h-24");
-        document.getElementById('logo').classList.add("h-16");
+        document.getElementById('logo').classList.add("h-[70px]");
         document.getElementById('blacklogo').classList.remove("hidden");
         document.getElementById('whitelogo').classList.add("hidden");
         document.getElementById('menulist').classList.add("bg-white");
@@ -41,7 +41,7 @@ window.addEventListener('scroll', function(){
     else if (scrollY < 200){
         document.getElementById('header').classList.remove("h-[70px]", "bg-white", "text-[#ea4343]");
         document.getElementById('header').classList.add("h-24", "bg-[#3c3c3c]", "text-white");
-        document.getElementById('logo').classList.remove("h-16");
+        document.getElementById('logo').classList.remove("h-[70px]");
         document.getElementById('logo').classList.add("h-24");
         document.getElementById('blacklogo').classList.add("hidden");
         document.getElementById('whitelogo').classList.remove("hidden");
