@@ -13,6 +13,20 @@ document.getElementById('menubtn').addEventListener("click", function() {
     }
 });
 
+document.getElementById('menulist').addEventListener("click", function() {
+    document.getElementById('bodyid').classList.toggle("overflow-hidden");
+    if (navclass == "translate-x-0"){    
+        document.getElementById('navbar').classList.remove("translate-x-0");
+        document.getElementById('navbar').classList.add("translate-x-full");
+        navclass = "translate-x-full";
+    }
+    else{
+        document.getElementById('navbar').classList.remove("translate-x-0");
+        document.getElementById('navbar').classList.add("translate-x-full");
+        navclass = "translate-x-full";
+    }
+});
+
 window.addEventListener('scroll', function(){
     if (scrollY > 200){
         document.getElementById('header').classList.remove("h-24", "bg-[#3c3c3c]", "text-white",);
