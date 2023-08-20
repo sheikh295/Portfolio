@@ -33,3 +33,27 @@ window.addEventListener('scroll', function(){
         document.getElementById('menulist').classList.add("bg-[#3c3c3c]");
     }
 });
+document.getElementById('portfolio1').addEventListener('click', function(){
+    document.getElementById('portfolioExpand1').classList.remove('hidden')
+    document.getElementById('bodyid').classList.add('overflow-hidden')
+});
+document.getElementById('closePortfolio1').addEventListener('click', function(){
+    document.getElementById('portfolioExpand1').classList.add('hidden')
+    document.getElementById('bodyid').classList.remove('overflow-hidden')
+})
+document.getElementById('portfolio2').addEventListener('click', function(){
+    document.getElementById('portfolioExpand2').classList.remove('hidden')
+    document.getElementById('bodyid').classList.add('overflow-hidden')
+});
+document.getElementById('closePortfolio2').addEventListener('click', function(){
+    document.getElementById('portfolioExpand2').classList.add('hidden')
+    document.getElementById('bodyid').classList.remove('overflow-hidden')
+})
+document.getElementById('portfolio3').addEventListener('click', function(){
+    document.getElementById('portfolioExpand3').classList.remove('hidden')
+    document.getElementById('bodyid').classList.add('overflow-hidden')
+});
+document.getElementById('closePortfolio3').addEventListener('click', function(){
+    document.getElementById('portfolioExpand3').classList.add('hidden')
+    document.getElementById('bodyid').classList.remove('overflow-hidden')
+})
