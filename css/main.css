@@ -868,20 +868,12 @@ body{
   margin-top: 2rem;
 }
 
-.mt-\[-7px\] {
-  margin-top: -7px;
+.mt-\[-3px\] {
+  margin-top: -3px;
 }
 
 .mt-\[180px\] {
   margin-top: 180px;
-}
-
-.mt-\[-5px\] {
-  margin-top: -5px;
-}
-
-.mt-\[-3px\] {
-  margin-top: -3px;
 }
 
 .block {
@@ -972,20 +964,16 @@ body{
   height: 70px;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[75px\] {
-  height: 75px;
-}
-
-.h-\[80px\] {
-  height: 80px;
 }
 
 .min-h-screen {
@@ -1857,6 +1845,10 @@ body{
 
   .lg\:mt-\[-20px\] {
     margin-top: -20px;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
   }
 
   .lg\:flex {

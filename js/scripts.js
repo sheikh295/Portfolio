@@ -14,7 +14,6 @@ document.getElementById('menubtn').addEventListener("click", function() {
 });
 
 document.getElementById('menulist').addEventListener("click", function() {
-    document.getElementById('bodyid').classList.toggle("overflow-hidden");
     if (navclass == "translate-x-0"){    
         document.getElementById('navbar').classList.remove("translate-x-0");
         document.getElementById('navbar').classList.add("translate-x-full");
